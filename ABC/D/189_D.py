@@ -10,7 +10,7 @@ l.reverse()
 
 for cond in l:
     if cond == "AND":
-        branch[0] += 0
+        branch[0] += branch[1]
         branch[1] += branch[0]
     elif cond == "OR":
         branch[0] += branch[1]
